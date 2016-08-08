@@ -1,8 +1,8 @@
 = sproutcore - abbot
 
-    by Charles Jolley and contributors
-    http://www.sproutcore.com
-    http://github.com/sproutcore/sproutcore-abbot
+by Charles Jolley and contributors
+http://www.sproutcore.com
+http://github.com/sproutcore/sproutcore-abbot
 
 == DESCRIPTION:
 
@@ -10,7 +10,8 @@ SproutCore is a platform for building native look-and-feel applications on
 the web.  This Ruby library includes a copy of the SproutCore JavaScript
 framework as well as a Ruby-based build system called Abbot.
 
-Abbot is a build system for creating static web content.  You can supply Abbot with a collection of JavaScript, HTML, CSS and image files and it will
+Abbot is a build system for creating static web content.  You can supply Abbot with a 
+collection of JavaScript, HTML, CSS and image files and it will
 combine the files into a bundle that are optimized for efficient, cached
 deliver directly from your server or using a CDN.
 
@@ -30,7 +31,8 @@ include:
    number of resources you download for each page.
 
 Although Abbot is intended primarily for building Web applications that
-use the SproutCore JavaScript framework, you can also use it to efficiently build any kind of static web content, even if SproutCore is not involved.
+use the SproutCore JavaScript framework, you can also use it to efficiently 
+build any kind of static web content, even if SproutCore is not involved.
 
 Abbot can be used both directly from the command line or as a ruby library.
 
@@ -49,7 +51,8 @@ These steps will allow the use of a development release of abbot rather than an 
     Modify the file so that it contains:
       source "http://rubygems.org"
       gem "sproutcore", :git => "git://github.com/sproutcore/abbot.git"
-      # if you want to use a version of abbot already checked out into your system rather than the remote repository
+      # if you want to use a version of abbot already checked out into your system 
+      # rather than the remote repository
       # gem "sproutcore", :path => "/path/to/abbot"
 
   2. Install Abbot and its dependencies by running these commands
@@ -57,8 +60,10 @@ These steps will allow the use of a development release of abbot rather than an 
     $ sudo gem install bundler
     $ bundle install --binstubs
 
-    This will install the Ruby 'bundler' gem (if it is not already), then add a 'bin' directory to your project containing executables like "sc-server".
-    The bundle install command will take care of locating, installing and linking to either the remote git or locally installed version of abbot and dependencies.
+    This will install the Ruby 'bundler' gem (if it is not already), then add a 'bin' directory
+    to your project containing executables like "sc-server".
+    The bundle install command will take care of locating, installing and linking to either
+    the remote git or locally installed version of abbot and dependencies.
 
   3. Init the Sproutcore project and start the server
 
